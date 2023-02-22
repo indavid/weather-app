@@ -1,0 +1,30 @@
+:root {
+  --white: #fff;
+  --font-size: 1rem;
+  --sans: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, :before, :after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: var(--sans);
+  font-size: var(--font-size);
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: 100px;
+}
+
+#inputCity {
+  text-transform: capitalize;
+}
+
+/*# sourceMappingURL=index.1303bb05.css.map */

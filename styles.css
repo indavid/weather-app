@@ -1,0 +1,30 @@
+:root {
+  --white: #ffffff;
+  --font-size: 1rem;
+  --sans: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--sans);
+  font-size: var(--font-size);
+}
+
+main {
+  margin: 100px;
+}
+
+#inputCity {
+  text-transform: capitalize;
+}
